@@ -38,3 +38,5 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
     
 ## Image Samples
 
+<img src="https://github.com/italonabuco/license-plate-recognition-brazil/blob/master/img-sample/car3-sample.jpg" width="500">
+
