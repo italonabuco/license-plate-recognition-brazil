@@ -6,7 +6,6 @@ Python Project - License Plate Recognition with OpenCV and Tesseract OCR
 
 #### Italo Nabuco<br>Full Stack Developer<br>
 italonabuco@hotmail.com<br>
-Whatsapp: +55 (99) 8189-4692<br>
 
 ## Install Requirements
 
