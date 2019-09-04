@@ -12,6 +12,8 @@ italonabuco@hotmail.com<br>
 * opencv
 * pytesseract
 * tesseract-ocr
+* PIL
+* numpy
 
 ## Usage
 

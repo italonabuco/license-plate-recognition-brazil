@@ -1,5 +1,4 @@
 import cv2
-import unicodedata
 import pytesseract
 import sys
 import numpy as np
@@ -279,7 +278,6 @@ for group in listOfGroups:
 	# cv2.imshow("roi", roi)
 
 	text = pytesseract.image_to_string(roi, config='-l eng')
-	text = unicodedata.normalize('NFKD', text).encode('ascii','ignore')
 	if(len(text) > 0):
 		# print text
 		newListOfGroups.append(group)
@@ -370,7 +368,6 @@ while (plate_found == False and expectedHeight >= 20):
 			color = color + 1
 
 	text = pytesseract.image_to_string(plate, config='-l eng')
-	text = unicodedata.normalize('NFKD', text).encode('ascii','ignore')
 
 	if(Functions.checkPlateText(text)):
 		plate_found = True
